@@ -16,11 +16,7 @@ var service6 = document.querySelector('.service-6');
 
 
 function wbtnscroll(){
-    if (window.innerWidth<992){
-        document.querySelector('.w-btn').style.right="28%"
-        document.querySelector('.w-btn').style.top="15%"
-
-    }
+    
     if (scrollY>200){
         document.querySelector('.w-btn').style.right="47.5%"
     }
@@ -61,6 +57,15 @@ function change(){
     header.style.display="block"
     footer.style.display="block"
     window.scrollTo(0,0);
+    if (window.innerWidth<992){
+        welcome.style.display="none"
+        main.style.display="block"
+    header.style.display="block"
+    footer.style.display="block"
+        
+        
+
+    }
 }
 // function menu(){
 //     let menu = document.querySelector('.main-menu');
