@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+
+}
+
+
+
+body{
+    margin: 0;
+
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.top-right-img{
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 425px;
+    position: absolute;
+    right: 0;
+}
+
+.menu-logo-container {
+    display: flex;
+    justify-content: space-between;
+}
+#header-logo{
+    margin-left: 75px;
+    margin-top: 75px;
+    width: 10%;
+}
+
+
+
+
+
+.main-menu{
+    display: flex;
+    position: absolute;
+    right: 17.5%;
+    top: 3%;
+    opacity: 0.9;
+}
+
+.main-menu-item{
+    margin-left: 25px;
+    font-size: .7rem;
+}
+
+.header-caption h2{
+    margin-left: 22.5%;
+    line-height: 30px;
+    word-spacing: 5px;
+
+
+}
+
+.girl{
+    position: absolute;
+    width: 30%;
+    right: 10%;
+}
+
+
+.socials{
+    flex-direction: column;
+    position: absolute;
+    left: 60px;
+}
+
+.socials img{
+    width:9.5px;
+    margin-top: 35px;
+}
