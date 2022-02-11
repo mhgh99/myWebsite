@@ -16,7 +16,7 @@ var service6 = document.querySelector('.service-6');
 
 
 function wbtnscroll(){
-    if (window.innerWidth<992 && scrollY>10){
+    if (window.innerWidth<992){
         document.querySelector('.w-btn').style.right="28%"
         document.querySelector('.w-btn').style.top="15%"
 
