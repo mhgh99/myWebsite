@@ -43,14 +43,14 @@ body{
 
 }
 main{
-    display: none;
+    
 }
 footer{
-    display: none;
+    
 }
 
 header{
-    display: none;
+   
     transition: all .5s;
     height: 450px;
 }
@@ -73,7 +73,7 @@ a{
     width: 100%;
 }
 .welcome{
-    display: block;
+    display:none;
 }
 .welcome button{
     position: absolute;
